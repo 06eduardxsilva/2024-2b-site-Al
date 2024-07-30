@@ -3,7 +3,46 @@ margin:0;
 padding: 0;
 }
 
-body{
+:root{
+--cor-um:#588157;
+--cor-dois:#87986a;
+--cor-tres:#90a955;
+--cor-quatro:#c8d5b9;
+--cor-cinco:#97a97c;
+--cor-seis:#867e7e;
+--cor-sete:#000000;
+}
+
+.body{
 background: #939393;
 color: #000000;
+font-family: var (--texto-corpo) ;
 } 
+
+.titulo-principal {
+ font-family: var (--texto-titulo);
+}
+
+.cabecalho-img{
+ width:10%;
+ border-radius:100%;
+}
+
+.cabecalho-nav__link{
+text-decoration:none;
+font-family: var(--texto-titulo);
+font-size:24px;
+color: var(--cor-quatro);
+margin-right:24px;
+}
+
+.principal-capa{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 24xp;
+background-image:url(img/ar4.jpg);
+background-repeat:no-repeat;
+margin-left:12px;
+padding:24px 12px;
+}
